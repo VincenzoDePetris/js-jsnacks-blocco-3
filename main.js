@@ -29,5 +29,7 @@ let sum = 0;
 while (sum < 50) {
   const numero = parseInt(prompt("scrivi un numero"));
   sum += numero;
-  arr.push(numero);
+  if (sum < 50) {
+    arr.push(numero);
+  }
 }
