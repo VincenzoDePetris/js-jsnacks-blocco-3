@@ -29,15 +29,29 @@
 
 // TRACCIA TRE
 
-const arr = [];
-let sum = 0;
+// const arr = [];
+// let sum = 0;
 
-while (sum < 50) {
-  const numero = parseInt(prompt("scrivi un numero"));
-  sum += numero;
-  if (sum < 50) {
-    arr.push(numero);
+// while (sum < 50) {
+//   const numero = parseInt(prompt("scrivi un numero"));
+//   sum += numero;
+//   if (sum < 50) {
+//     arr.push(numero);
+//   }
+// }
+
+// media = sum / numero;
+
+// console.log(media);
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+let evenNumbers = [];
+for (let i = 0; i < numbers.length - 1; i++) {
+  if (numbers[i] % 2 == 0);
+  {
+    evenNumbers.push(i);
   }
-  sum / numero;
-  console.log(sum / numero);
 }
+console.log(evenNumbers);
+
+// dovrebbe restituire [1,3,5]
