@@ -1,3 +1,5 @@
+// TRACCIA UNO
+
 // const primoNumero = parseInt(prompt("scrivi un numero"));
 // const secondoNumero = parseInt(prompt("scrivi un altro numero"));
 
@@ -12,6 +14,8 @@
 
 // console.log(random);
 
+// TRACCIA DUE
+
 // const primaParola = prompt("inserisci una parola");
 // const secondaParola = prompt("inserisci un'altra parola");
 
@@ -23,6 +27,8 @@
 //   console.log(primaParola + " " + secondaParola);
 // }
 
+// TRACCIA TRE
+
 const arr = [];
 let sum = 0;
 
@@ -32,4 +38,6 @@ while (sum < 50) {
   if (sum < 50) {
     arr.push(numero);
   }
+  sum / numero;
+  console.log(sum / numero);
 }
